@@ -249,13 +249,26 @@ header {
 }
 
 
+/*MOBILE NAVIGATION*/
+.mobile-nav-icon .menu,
+.mobile-nav-icon .menu-close {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #fff;
+    display: none;
+}
+
+
+
 /*STICKY NAVIGATION*/
 .sticky {
     position: fixed; 
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rbga(255, 255, 255, 0.98);
+    background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
 }

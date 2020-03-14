@@ -83,4 +83,23 @@ $(document).ready(function() {
         offset: '50%'
     });
 
+    $('.js--nav-menu').click(function() {
+        var nav = $('.js--main-nav');
+        var menu = $('.js--nav-menu .menu');
+        var close = $('.js--nav-menu-close .menu-close');
+
+        nav.slideToggle(200);
+
+
+        if (menu.css("display", "inline-block")) {
+            menu.css("display", "none");
+            close.css("display", "inline-block");
+        } else {
+            close.css("display", "none");
+            close.css("display", "inline-block");
+        }
+        
+
+    });
+
 });
