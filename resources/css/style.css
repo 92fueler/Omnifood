@@ -32,6 +32,7 @@ body {
 /*REUSABLE COMPONENTS*/
 /* -------------------------------------------------------------------*/
 .row {
+    /* define the max width of the element */
     max-width: 1140px;
     margin: 0 auto;
 }
